@@ -1,4 +1,4 @@
- #Zenelejátszás Python segítségével & Loop létrehozás & Bash környezethez kiegészítés
+ #Zenelejátszás Python segítségével & Loop létrehozás & Bash környezethez kiegészítés & fizikai gomb
  
  import vlc
  player = vlc.MediaPlayer("/home/pi/Music/music.mp3")
@@ -12,4 +12,12 @@
  player.play()
  
   while True: pass
+  
+ from gpiozero import Button
+ btn = Button(17)
+ 
+ def stopMusic():
+    player.stop()
+ btn.when_pressed = stopMusic
+ 
  
