@@ -1,4 +1,4 @@
-# Az alábbi README fájl a Mikroelektro--GKLB_INTM020-_Beadando feladat alapinformációt adja meg
+# Az alábbi README fájl a Mikroelektro--GKLB_INTM020-_Beadando feladat alapinformációit adja meg
 
 ## Alapinformációk
 1. A választott téma: Ébresztőóra készítése.
