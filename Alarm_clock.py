@@ -1,4 +1,4 @@
- #Zenelejátszás Python segítségével & Loop létrehozás
+ #Zenelejátszás Python segítségével & Loop létrehozás & Bash környezethez kiegészítés
  
  import vlc
  player = vlc.MediaPlayer("/home/pi/Music/music.mp3")
@@ -11,4 +11,5 @@
  player.audio_set_volume(100)
  player.play()
  
+  while True: pass
  
