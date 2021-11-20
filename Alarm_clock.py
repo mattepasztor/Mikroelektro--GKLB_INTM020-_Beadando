@@ -1,10 +1,12 @@
  #Zenelejátszás Python segítségével & Loop létrehozás & Bash környezethez kiegészítés & fizikai gomb
- #szundi funkció
+ #szundi funkció && ébresztés és gombnyomás közt eltelt reakcióidő kiszámítása
  
  import vlc
- from gpiozero import Button
- from time import sleep
+from gpiozero import Button
+from time import sleep
+from datetime import datetime
  
+starttime = datetime.now()
 vlc_instance = vlc.Instance("--input-repeat=999")
 player = vlc_instance.media_player_new()
 song = vlc_instance.media_new("/home/pi/Music/music.mp3")
@@ -18,6 +20,10 @@ Button.was_held = False
 def held(btn):
     btn.was_held = True
     player.stop()
+    stoptime = datetime.now()
+    diff = stoptime - starttime
+    print(diff.total_seconds())
+    
 
 def released(btn):
     if not btn.was_held:
@@ -26,7 +32,7 @@ def released(btn):
 
 def pressed():
     player.pause()
-    sleep(5)
+    sleep(1)
     player.play()
 
 btn = Button(17, hold_time=3)
