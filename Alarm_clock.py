@@ -1,6 +1,7 @@
  #Zenelejátszás Python segítségével & Loop létrehozás & Bash környezethez kiegészítés & fizikai gomb
  #szundi funkció && ébresztés és gombnyomás közt eltelt reakcióidő kiszámítása
  #Reakcióidő fájlba írása
+ #kimeneti fájl elérési útjának módosítása
  
 import vlc
 from gpiozero import Button
@@ -23,8 +24,8 @@ def held(btn):
     player.stop()
     stoptime = datetime.now()
     diff = stoptime - starttime
-    print(diff.total_seconds())
-    with open('output.txt', 'a') as f:
+    #print(diff.total_seconds())
+    with open('/home/pi/Scripts/output.txt', 'a') as f:
         f.write (str(datetime.now()))
         f.write ('\tResponse time: ')
         f.write (str(diff.total_seconds()))
