@@ -23,4 +23,5 @@ A projekt célja egy olyan ébresztőóra elkészítése amely az ébresztés- �
 7. Fizikai gomb beüzemelése
    *  Python kód a leállításhoz
    *  Szundi funkció beállítása
-8. A leállítás idejének adatbázisba kimentése
+8. Reakcióidő megjelenítése
+9. A leállítás idejének adatbázisba mentése
