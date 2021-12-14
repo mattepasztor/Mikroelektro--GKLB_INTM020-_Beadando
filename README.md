@@ -25,3 +25,4 @@ A projekt célja egy olyan ébresztőóra elkészítése amely az ébresztés- �
    *  Szundi funkció beállítása
 8. Reakcióidő megjelenítése
 9. A leállítás időpontjának adatbázisba mentése
+10. Az adatbázis kiküldése gmail-re meghatározott időpontban.
