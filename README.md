@@ -11,7 +11,7 @@
    * Rezisztor
 
 ## Célkitűzés
-A projekt célja egy olyan ébresztőóra elkészítése amely az ébresztés- és a leállítás időpontja között eltelt időtartamot adatbázisban tárolja el. Az ébresztés leállítása fizikai gombbal történjen. Az ébresztőóra rendelkezzen szundi funkcióval.
+A projekt célja egy olyan ébresztőóra elkészítése amely az ébresztés- és a leállítás időpontja között eltelt időtartamot adatbázisban tárolja el. Bizonyos időközönként e-mail küldése egy megadot címre a reakcióidőkkel. Az ébresztés leállítása fizikai gombbal történjen. Az ébresztőóra rendelkezzen szundi funkcióval.
 
 ## A megvalósítás során az alábbi pontok kidolgozása történt meg
 1. Raspberry beüzemelése
@@ -25,4 +25,4 @@ A projekt célja egy olyan ébresztőóra elkészítése amely az ébresztés- �
    *  Szundi funkció beállítása
 8. Reakcióidő megjelenítése
 9. A leállítás időpontjának adatbázisba mentése
-10. Az adatbázis kiküldése gmail-re meghatározott időpontban.
+10. Az adatbázis kiküldése gmail-re meghatározott időpontban
