@@ -4,7 +4,7 @@
 1. A választott téma: Ébresztőóra készítése.
 2. Felhasznált vezérlő: Raspberry Pi Model 3 B+
 3. Felhasznált eszközök: 
-   * Bluetooth hangszóró
+   * Hangszóró
    * Breadboard
    * Fizikai gomb
    * Szükséges kábelek
@@ -15,13 +15,14 @@ A projekt célja egy olyan ébresztőóra elkészítése amely az ébresztés- �
 
 ## A megvalósítás során az alábbi pontok kidolgozása történt meg
 1. Raspberry beüzemelése
-2. Bluetooth kapcsolat létrehozása
-3. Zenelejátszás tesztelése
-4. Zenelejátszás Python segítségével
-5. Loop létrehozás
-6. Script lejátszása Bash környezetben
-7. Időzítés beállítása
-8. Fizikai gomb beüzemelése
+2. Zenelejátszás tesztelése
+3. Zenelejátszás Python segítségével
+4. Loop létrehozás
+5. Script lejátszása Bash környezetben
+6. Időzítés beállítása
+7. Fizikai gomb beüzemelése
    *  Python kód a leállításhoz
    *  Szundi funkció beállítása
-9. A leállítás idejének adatbázisba kimentése
+8. Reakcióidő megjelenítése
+9. A leállítás időpontjának adatbázisba mentése
+10. Az adatbázis kiküldése gmail-re meghatározott időpontban.
